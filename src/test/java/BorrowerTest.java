@@ -26,7 +26,7 @@ public class BorrowerTest {
     }
 
     @Test
-    public void hasEmptyCollection(){
+    public void hasEmptyBookCollection(){
         assertEquals(0, borrower.booksInCollection());
     }
 

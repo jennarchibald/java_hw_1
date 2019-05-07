@@ -200,7 +200,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557245027113" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557245078718" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -217,7 +217,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest">
+  <component name="RunManager" selected="JUnit.All in com.codeclan.library.library.test">
+    <configuration name="All in com.codeclan.library.library.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.codeclan.library.library.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.codeclan.library.library.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -247,6 +255,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in com.codeclan.library.library.test" />
         <item itemvalue="JUnit.LibraryTest" />
         <item itemvalue="JUnit.BorrowerTest" />
         <item itemvalue="JUnit.BookTest" />
