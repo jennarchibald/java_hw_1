@@ -25,13 +25,8 @@ public class Library {
     }
 
     private void addToGenreCount(String genre) {
-        if (genreCount.containsKey(genre)){
-            int newCount = genreCount.get(genre);
-            newCount++;
-            genreCount.put(genre, newCount);
-        } else {
-            genreCount.put(genre, 1);
-        }
+        int count = genreCount.containsKey(genre) ? genreCount.get(genre) : 0;
+        genreCount.put(genre, count + 1);
     }
 
     public int getCapacity() {
